@@ -1,15 +1,14 @@
-function printSring()
+function printSring(fn, ln)
 {
-    console.log("Hello JS")
-    console.log("Playwright")
+    console.log(fn)
+    console.log(ln)
 }
 
-function add()
+function add(a, b)
 {
-    let a = 10, b=5;
     console.log(a+b)
 }      
 
 
-printString()
-add()
+printString("Raj","S")
+add(10,25)
