@@ -6,7 +6,8 @@ function printSring()
 
 function add()
 {
-    console.log(5+5)
+    let a = 10, b=5;
+    console.log(a+b)
 }      
 
 
